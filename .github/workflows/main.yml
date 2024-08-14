@@ -21,16 +21,11 @@ jobs:
       - name: Run data fetch script
         run: python crawling.py
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub Actions의 기본 토큰을 환경 변수로 설정
         run: |
           git config --local user.email "kimlynnjean@naver.com"
           git config --local user.name "lynnjean"
           git add data.csv
-          git commit -m "Add new data"
-          git push
-
-
-
-
-
-
-
+          git commit -m "Add new data" || echo "No changes to commit"
+          git push https://github.com/lynnjean/Jeju_Eco_Analysis.git
