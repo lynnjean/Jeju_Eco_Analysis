@@ -7,37 +7,30 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-
-    - name: Upgrade pip
-      run: python -m pip install --upgrade pip
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: Print file permissions
-      run: |
-        ls -la
-        ls -l data.csv  # 확인하고자 하는 파일의 권한을 구체적으로 확인
-
-    - name: Run data fetch script
-      run: python crawling.py
-
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "kimlynnjean@naver.com"
-        git config --local user.name "lynnjean"
-        git add data.csv
-        git commit -m "Add new data"
-        git push
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Print file permissions
+        run: |
+          ls -la
+          ls -l data.csv  # 확인하고자 하는 파일의 권한을 구체적으로 확인
+      - name: Run data fetch script
+        run: python crawling.py
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "kimlynnjean@naver.com"
+          git config --local user.name "lynnjean"
+          git add data.csv
+          git commit -m "Add new data"
+          git push
 
 
 
