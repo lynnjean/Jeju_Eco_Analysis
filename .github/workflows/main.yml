@@ -21,13 +21,13 @@ jobs:
       run: |
         python crawling.py
 
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "kimlynnjean@naver.com"
-        git config --local user.name "lynnjean"
-        git add data.csv
-        git commit -m "Update data.csv with new data"
-        git push
+    # - name: Commit and push changes
+    #   run: |
+    #     git config --local user.email "kimlynnjean@naver.com"
+    #     git config --local user.name "lynnjean"
+    #     git add data.csv
+    #     git commit -m "Update data.csv with new data"
+    #     git push
 
 
 
