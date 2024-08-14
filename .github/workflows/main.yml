@@ -1,15 +1,31 @@
 name: Jeju Sewer Water
 
-on: [push]
+on:
+  schedule:
+    - cron: '*/1 * * * *'
 
-jobs: 
-    build : 
-        runs-on: ubuntu-latest 
-        steps:
-            - uses: actions/checkout@v3
-            - name: pip 업그레이드
-              run: python -m pip install --upgrade pip
-            - name: 필요한 패키지 추가 설치
-              run: pip install -r requirements.txt
-            - name: 파이썬 실행!!
-              run: python crawling.py
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Run data fetch script
+      run: |
+        python crawling.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "kimlynnjean@naver.com"
+        git config --local user.name "lynnjean"
+        git add .
+        git commit -m "Add new data"
+        git push
+
