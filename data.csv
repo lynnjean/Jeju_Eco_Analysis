@@ -3233,3 +3233,234 @@ timestamp,data
 </body>
 </openapi>
 "
+2024-08-14 18:42:07,"
+
+
+
+
+
+
+
+
+
+
+<openapi>
+<header>
+	<resultCode>00</resultCode>
+	<resultMsg>success</resultMsg>
+</header>
+<body>
+<data>
+
+	<list>
+	
+		<PlaceCode>Bo-Mok</PlaceCode>
+	
+		<MeasureTime>20240815034150</MeasureTime>
+	
+		<Organic>4.2  </Organic>
+	
+		<Organic_Status>00</Organic_Status>
+	
+		<Suspended>0.4  </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>7.972 </TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>17.597 </TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>OK</CommDisorder>
+	
+	</list>
+
+	<list>
+	
+		<PlaceCode>Dae-Jung</PlaceCode>
+	
+		<MeasureTime>20240815034150</MeasureTime>
+	
+		<Organic>5.3  </Organic>
+	
+		<Organic_Status>00</Organic_Status>
+	
+		<Suspended>0.9  </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>0.443 </TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>3.385  </TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>OK</CommDisorder>
+	
+	</list>
+
+	<list>
+	
+		<PlaceCode>Eastside</PlaceCode>
+	
+		<MeasureTime>20240815034140</MeasureTime>
+	
+		<Organic>4.4  </Organic>
+	
+		<Organic_Status>00</Organic_Status>
+	
+		<Suspended>1.3  </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>1.948 </TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>3.184  </TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>NG</CommDisorder>
+	
+	</list>
+
+	<list>
+	
+		<PlaceCode>Jeju</PlaceCode>
+	
+		<MeasureTime>20240815034130</MeasureTime>
+	
+		<Organic>6.2  </Organic>
+	
+		<Organic_Status>00</Organic_Status>
+	
+		<Suspended>3.4  </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>1.405 </TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>9.320  </TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>OK</CommDisorder>
+	
+	</list>
+
+	<list>
+	
+		<PlaceCode>Nam-Won</PlaceCode>
+	
+		<MeasureTime>20240815034120</MeasureTime>
+	
+		<Organic>4.4  </Organic>
+	
+		<Organic_Status>00</Organic_Status>
+	
+		<Suspended>2.3   </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>1.342</TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>3.831</TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>NG</CommDisorder>
+	
+	</list>
+
+	<list>
+	
+		<PlaceCode>Sek-Dal</PlaceCode>
+	
+		<MeasureTime>20240815034140</MeasureTime>
+	
+		<Organic>0.5  </Organic>
+	
+		<Organic_Status>00</Organic_Status>
+	
+		<Suspended>1.4  </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>1.170 </TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>10.773 </TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>OK</CommDisorder>
+	
+	</list>
+
+	<list>
+	
+		<PlaceCode>Sung-San</PlaceCode>
+	
+		<MeasureTime>20240815034150</MeasureTime>
+	
+		<Organic>0.0   </Organic>
+	
+		<Organic_Status>04</Organic_Status>
+	
+		<Suspended>1.1  </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>1.404</TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>5.347  </TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>OK</CommDisorder>
+	
+	</list>
+
+	<list>
+	
+		<PlaceCode>Westside</PlaceCode>
+	
+		<MeasureTime>20240815034150</MeasureTime>
+	
+		<Organic>15.6 </Organic>
+	
+		<Organic_Status>00</Organic_Status>
+	
+		<Suspended>1.9  </Suspended>
+	
+		<Suspended_Status>00</Suspended_Status>
+	
+		<TotalP>1.336 </TotalP>
+	
+		<TotalP_Status>00</TotalP_Status>
+	
+		<TotalN>12.289 </TotalN>
+	
+		<TotalN_Status>00</TotalN_Status>
+	
+		<CommDisorder>OK</CommDisorder>
+	
+	</list>
+
+</data>
+</body>
+</openapi>
+"
