@@ -1,8 +1,8 @@
 name: Jeju Sewer Water
 
-on:
-  schedule:
-    - cron: '*/1 * * * *'  # 매 1분마다 실행
+on: [push]
+  # schedule:
+  #   - cron: '*/1 * * * *'  # 매 1분마다 실행
 
 jobs:
   fetch-data:
