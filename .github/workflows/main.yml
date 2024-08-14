@@ -28,5 +28,5 @@ jobs:
           git config --local user.name "lynnjean"
           git add data.csv
           git commit -m "Add new data" || echo "No changes to commit"
-          # git push https://x-access-token:${{ secrets.MY_CUSTOM_TOKEN }}@github.com/lynnjean/Jeju_Eco_Analysis.git
-          git push https://github.com/lynnjean/Jeju_Eco_Analysis.git
+          git push https://x-access-token:${{ secrets.MY_CUSTOM_TOKEN }}@github.com/lynnjean/Jeju_Eco_Analysis.git
+          # git push https://github.com/lynnjean/Jeju_Eco_Analysis.git
