@@ -2,7 +2,7 @@ name: Jeju Sewer Water
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/1 * * * *'  # 매 1분마다 실행
 
 jobs:
   fetch-data:
@@ -25,7 +25,14 @@ jobs:
       run: |
         git config --local user.email "kimlynnjean@naver.com"
         git config --local user.name "lynnjean"
-        git add .
-        git commit -m "Add new data"
+        git add data.csv
+        git commit -m "Update data.csv with new data"
         git push
+
+
+
+
+
+
+
 
